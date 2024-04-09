@@ -63,6 +63,7 @@ def ddos_attack(target_ip, target_port, duration, num_threads):
     for thread in threads:
         thread.join()
 
+
 # Example usage:
 # Replace 'testphp.vulnweb.com' with the target IP and 80 with the target port.
 # Set the duration to the number of seconds you want the attack to run.
