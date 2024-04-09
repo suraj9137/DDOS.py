@@ -4,7 +4,6 @@ This repository contains a Python script that performs a DDoS (Distributed Denia
 
 
 Table of Contents :
-
 Features
 Requirements
 Usage
@@ -12,11 +11,11 @@ Disclaimer
 
 
 Features :
-> Generates random IP addresses and user agents for each request.
-> Uses multi-threading to send a large number of concurrent requests.
-> Limits the rate of requests to prevent spamming the server.
-> Allows the user to specify the target IP address, port, duration, and
-  number of threads.
+Generates random IP addresses and user agents for each request.
+Uses multi-threading to send a large number of concurrent requests.
+Limits the rate of requests to prevent spamming the server.
+Allows the user to specify the target IP address, port, duration, and
+number of threads.
 
 
 Requirements : 
